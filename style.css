@@ -11,12 +11,18 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
-    padding-right: 150px;
+
 }
 
 a:hover {
     text-decoration: none;
     cursor: pointer;
+}
+a:focus {
+    border:3px solid #000000;
+}
+.accueil:hover{
+    border-bottom: 3px solid black;
 }
 
 #page-loading-blocs-notifaction {
@@ -275,7 +281,7 @@ a:hover {
 
 .row-no-gutters {
     margin-right: 0;
-    margin-left: 0;
+    margin-left: 265px;
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -362,7 +368,21 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+footer{
+    padding-top: 0;
+    background: #F3976C;
+    height: 170px;
+}
+.col-sm-4{
+    padding-left: 740px;
+}
+.adresse{
+        padding-top: 160px;
+        font-size: 20px;
+        padding left: 86px;
+}
 
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -408,6 +428,14 @@ a:hover {
     background: none!important;
     display: block;
     padding: 14px 15px;
+}
+.social {
+    display: flex;
+    max-width: 400px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 36px;
+    padding-bottom: 0;
 }
 
 nav .caret {
@@ -678,7 +706,8 @@ a {
 }
 
 p {
-    font-size: 11px;
+        font-size:20px;
+        padding-top: 0px;
 }
 
 .tight-width-whitespace {
@@ -700,10 +729,7 @@ p {
     font-weight: 700;
 }
 
-.social {
-    max-width: 400px;
-    margin: auto auto auto auto;
-}
+
 
 h2 {
     font-size: 22px;
@@ -825,6 +851,7 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+
 
 @media (max-width: 1024px) {
     .bloc {
@@ -1039,5 +1066,9 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .row-no-gutters {
+        margin-right: 0;
+        margin-left: 4px;
     }
 }

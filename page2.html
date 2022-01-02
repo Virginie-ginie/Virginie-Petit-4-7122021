@@ -1,23 +1,24 @@
 <!doctype html>
-<html lang="Default">
+<html lang="fr">
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
+    <meta name="keywords" content="seo, google, site web, site internet, agence design paris, agence design, agence design,agence design,agence design,agence design,agence design,agence design,agence design,agence design">
+    <meta name="description" content="La chouette agence est une agence de web design qui aide les entreprises à devenir attractives et visibles sur internet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	
     
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>
+	<script src="./js/jquery.touchSwipe.js" defer></script>
+	<script src="./js/gmaps.js"></script>
+
     <title>Contactez-nous</title>
 
     
@@ -82,27 +83,27 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
+						<label for="name">
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
-					</div>
+						<input type="text" name="firstname" id="name" class="form-control" required/></div>
 					<div class="form-group">
-						<label>
+						<label for="email">
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input type="text" name="email" id="email" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="comment">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input type="text" name="comment" id="comment" class="form-control" required />
 					</div>
 					<div class="form-group">
 						<label>
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label>
+						<textarea name="text" id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
@@ -110,8 +111,8 @@
 				</form>
 			</div>
 			<div class="col-sm-6">
-				<p>
-					contact@lachouetteagence.com<br>2, place Jean V 44000 Nantes<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+				<p class="adresse">
+					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 				</p>
 			</div>
 		</div>
@@ -125,44 +126,42 @@
 
 
 <!-- Footer - bloc-8 -->
-<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
-	<div class="container bloc-sm">
-		<div class="row">
-			<div class="col-sm-12">
-				<p class="text-center white">
-					La chouette agence - Agence web basée à Nantes.<br>
-				</p>
-				<div class="row row-no-gutters social">
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+<footer>
+	<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+		<div class="container bloc-sm">
+			<div class="row">
+				<div class="col-sm-12">
+					<p class="text-center white">
+						La chouette agence - Agence web basée à Lyon.<br>
+					</p>
+					<div class="row row-no-gutters social">
+						<div class="col-sm-3">
+							<div class="text-center">
+								 <a class="social" href="index.html" aria-label =" twitter " ><span class="fa fa-twitter icon-md"></span></a>
+							</div>
 						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+						<div class="col-sm-3">
+							<div class="text-center">
+								<a class="social" href="index.html" aria-label =" facbook "><span class="fa fa-facebook icon-md"></span></a>
+							</div>
 						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+						<div class="col-sm-3">
+							<div class="text-center">
+								<a class="social" href="index.html" aria-label =" dribble "><span class="fa fa-dribbble icon-md"></span></a>
+							</div>
 						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+						<div class="col-sm-3">
+							<div class="text-center">
+								<a class="social" href="index.html" aria-label =" instagram "><span class="fa fa-instagram icon-md"></span></a>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+</footer>
 </div>
-<!-- Footer - bloc-8 END -->
-
-</div>
-<!-- Principal conteneur END -->
-    
 
 </body>
 </html>
