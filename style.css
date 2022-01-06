@@ -7,11 +7,12 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
-
 }
 
 a:hover {
@@ -21,6 +22,7 @@ a:hover {
 a:focus {
     border:3px solid #000000;
 }
+
 .accueil:hover{
     border-bottom: 3px solid black;
 }
@@ -381,8 +383,13 @@ footer{
         font-size: 20px;
         padding left: 86px;
 }
-
+.nom-de-avis{
+    font-size:13px;
+    font-style: italic;
 }
+
+
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -722,7 +729,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #000000!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -807,7 +814,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    
 }
 
 .btn-atomic-tangerine:hover {
@@ -865,6 +872,8 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+   
+
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -874,13 +883,15 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
-}
+ 
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
+  
 }
+
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
