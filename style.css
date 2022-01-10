@@ -399,6 +399,13 @@ footer{
 .collaboration{
     color:white;
 }
+.center-block{
+    height: 90px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90px;
+}
 
 
 @media (min-width: 768px) {
@@ -1004,8 +1011,9 @@ h4 {
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
-        width: auto;
+        height: 40px;
+        width: 180px;
+    }
     }
     .nav-invert .navbar-header {
         float: none;
